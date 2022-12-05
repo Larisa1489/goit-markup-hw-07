@@ -47,12 +47,13 @@
     border-radius: 2px;
   }
 }
-.nav__icons {
+.nav-mail__icons,
+.nav-tel {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.nav__mail {
+.nav-mail {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -73,7 +74,7 @@
     color: var(--acent-txt-cl);
   }
 }
-.nav__tel {
+.nav-tel {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;

@@ -689,7 +689,7 @@ img {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.btn__txt {
+.form-btn__txt {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -703,7 +703,7 @@ img {
   margin-right: 10px;
 }
 
-.btn__icon {
+.form-btn__icon {
   position: absolute;
 }
 
@@ -810,12 +810,13 @@ img {
   border-radius: 2px;
 }
 
-.nav__icons {
+.nav-mail__icons,
+.nav-tel {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.nav__mail {
+.nav-mail {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -835,11 +836,11 @@ img {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-.nav__mail:hover, .nav__mail:focus {
+.nav-mail:hover, .nav-mail:focus {
   color: var(--acent-txt-cl);
 }
 
-.nav__tel {
+.nav-tel {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -858,7 +859,7 @@ img {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-.nav__tel:hover, .nav__tel:focus {
+.nav-tel:hover, .nav-tel:focus {
   color: var(--acent-txt-cl);
 }
 
@@ -1340,7 +1341,7 @@ img {
   fill: currentColor;
 }
 
-.address-contacts {
+.address {
   font-style: normal;
 }
 
